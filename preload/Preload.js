@@ -26,17 +26,11 @@ export class Boot extends Phaser.Scene {
 //---------- preloads them into the game cache
 
 export class Preload extends Phaser.Scene {
-	constructor() {
-
-	    super("Preload");
-	}
-//----------------------------------------------------------------------------------------------------------------
-
+     constructor() {
+	super("Preload");
+     }
     preload()
     {   
-
-    //---- call asset preload funcs
-
        this.parseResources(this.cache.json.get('main_resources')); 
      }
    create()
