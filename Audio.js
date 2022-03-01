@@ -12,7 +12,7 @@
           width: window.innerWidth,
           height: window.innerHeight
         },
-        scene: [Preload, Main],
+        scene: ["array of game scenes"],
         ...Canvas({ antialias: true }),
         audio: new Audio,
         pipeline :[]
