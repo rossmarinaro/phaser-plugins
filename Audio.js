@@ -53,7 +53,7 @@
             },
             play: scene =>{ 
                 new Promise(res =>{
-                    switch ("current game scene variable")
+                    switch ("switch scene music or something")
                     {
      
                     }
