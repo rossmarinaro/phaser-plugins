@@ -13,7 +13,6 @@
           height: window.innerHeight
         },
         scene: ["array of game scenes"],
-        ...Canvas({ antialias: true }),
         audio: new Audio,
         pipeline :[]
       }
