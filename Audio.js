@@ -1,7 +1,27 @@
 /* AUDIO */
 
 
-export class Audio {
+//// Phaser game config
+
+    const config = {
+        type: Phaser.WEBGL,
+        transparent: true,
+        scale: {
+          mode: Phaser.Scale.FIT,
+          autoCenter: Phaser.Scale.CENTER_BOTH,
+          width: window.innerWidth,
+          height: window.innerHeight
+        },
+        scene: [Preload, Main],
+        ...Canvas({ antialias: true }),
+        audio: new Audio,
+        pipeline :[]
+      }
+
+
+////Audio class
+
+ class Audio {
     constructor() 
     {
         this.noAudio = false;
