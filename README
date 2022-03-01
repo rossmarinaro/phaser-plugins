@@ -1,3 +1,5 @@
+Some useful functions to use in various Phaser projects
+
 Audio: class can be used in Phaser game config to easily play a sound and manage the cache as to prevent duplicate sound instances.
 
 Preload: simple resource file and parser to preload assets into game cache.
