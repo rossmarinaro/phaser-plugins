@@ -13,7 +13,7 @@
         { "asset key": [ "path to asset .png", "path to asset .json" ] }
     ],
     "obj": [
-        { "asset key": ["path to asset .obj", "path to asset .mtl"] },
+        { "asset key": ["path to asset .obj", "path to asset .mtl"] }
     ],
     "spritesheet": [
         { "asset key": [ "path to asset .png", { "frameWidth": "", "frameHeight": "" } ]  }
