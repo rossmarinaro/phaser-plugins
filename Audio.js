@@ -4,7 +4,7 @@
 //// Phaser game config
 
     const config = {
-        type: Phaser.WEBGL,
+        type: Phaser.AUTO,
         transparent: true,
         scale: {
           mode: Phaser.Scale.FIT,
